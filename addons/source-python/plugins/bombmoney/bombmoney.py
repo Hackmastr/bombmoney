@@ -64,7 +64,7 @@ with ConfigManager(info.basename) as plugin_config:
     )
     bomb_reward['reward_team_money'] = plugin_config.cvar(
         'bomb_reward_team_money', 0,
-        'Different reward than others? can be 1 or 0.'
+        'Different money amount? can be 1 or 0.'
     )
     bomb_reward['team_reward_ct'] = plugin_config.cvar(
         'bomb_team_reward_ct', 1000,
