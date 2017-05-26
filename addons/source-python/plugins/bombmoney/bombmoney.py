@@ -17,7 +17,7 @@ from translations.strings import LangStrings
 # =============================================================================
 # >> PLUGIN INFORMATION
 # =============================================================================
-info = PluginInfo()
+info = PluginInfo("bombmoney")
 info.author = 'Kill, iPlayer'
 info.basename = 'bombmoney'
 info.name = 'Bomb Money'
